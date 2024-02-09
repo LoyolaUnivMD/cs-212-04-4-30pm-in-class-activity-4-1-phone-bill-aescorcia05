@@ -70,7 +70,7 @@ class HelloWorld {
         char[] colorOptions = {'G', 'B', 'P'};
 
         // Outputting options to the user
-        System.out.println("What plan do you have??\n");
+        System.out.println("What plan do you have?\n");
         System.out.println("  G reen");
         System.out.println("  B lue");
         System.out.println("  P urple");
@@ -90,7 +90,7 @@ class HelloWorld {
         while (invalid) {
 
             // Prompting the user again
-            System.out.println("What plan do you have??\n");
+            System.out.println("What plan do you have?\n");
             System.out.println("  G reen");
             System.out.println("  B lue");
             System.out.println("  P urple");
