@@ -1,1 +1,53 @@
-THINK before you code...
+class HelloWorld 
+    char color
+    double cost
+    double data
+    double dataUsage
+    double costPerAdditionalGB
+    boolean acceptsCoupons
+    double amountToPay
+    double additionalGBs
+
+
+    switch(color)
+        case G:
+            this.data = 2.0
+            this.cost = 49.99
+            this.costPerAdditionalGB = 15.0
+            this.acceptsCoupons = true
+            break
+        case B:
+            this.data = 4.0
+            this.cost = 70.00
+            this.costPerAdditionalGB = 10.0
+            this.acceptsCoupons = false
+            break
+        case P:
+            this.data = 1.79769313486231570e+308d
+            this.cost = 99.95
+            this.costPerAdditionalGB = 15.0
+            this.acceptsCoupons = false
+            break
+        default:
+            this.data = 0.0
+            this.cost = 0.0
+            this.costPerAdditionalGB = 0.0
+            this.acceptsCoupons = false
+            break
+        
+
+    Calculate how many additional GBs were used (if any)
+
+    this.amountToPay = this.cost + this.additionalGBs*this.costPerAdditionalGB
+
+
+        Output options to the user
+        Get error checked input for color
+        Get the quantity of GBs used.
+        Create the class for user
+
+        If plan is green)
+            Ask if they have a coupon
+            If the user said yes, $20 are discounted from their total.
+
+        Output total to user
