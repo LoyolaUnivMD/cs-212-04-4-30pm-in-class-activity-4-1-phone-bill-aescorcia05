@@ -1,1 +1,35 @@
-Test cases go here. 
+1.
+Color: Green
+Coupon: Yes
+Number of GBs: 4
+Cost: 79.99
+
+1.
+Color: Green
+Coupon: No
+Number of GBs: 4
+Cost: 59.99
+
+1.
+Color: Green
+Coupon: No
+Number of GBs: 2
+Cost: 49.99
+
+1.
+Color: Blue
+Coupon: No
+Number of GBs: 4
+Cost: 70.00
+
+1.
+Color: Blue
+Coupon: No
+Number of GBs: 44
+Cost: 470.00
+
+1.
+Color: Purple
+Coupon: No
+Number of GBs: 1000000000
+Cost: 99.95
